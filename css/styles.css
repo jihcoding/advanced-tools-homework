@@ -58,9 +58,16 @@ p {
   color: white;
 }
 
+.app {
+  margin: 32px 0;
+}
+
+.about-paragraph {
+  margin: 32px 1px;
+}
+
 .about-paragraph p {
   text-align: center;
-  margin: 42px 95px;
 }
 
 .about-link {
@@ -94,4 +101,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+/* Media */
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  .link {
+    display: block;
+    text-align: center;
+    margin: 0 19px;
+  }
+  .about-paragraph p {
+    text-align: center;
+  }
 }
